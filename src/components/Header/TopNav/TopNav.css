@@ -1,0 +1,30 @@
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  padding: 0 5px;
+  text-decoration: none;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.items:hover {
+  color: rgb(8, 243, 59);
+  text-decoration: underline;
+}
+.auth-btn {
+  background-color: none;
+  color: white;
+  margin: 2px;
+}
+.auth-title{
+  color: white;
+}

@@ -1,0 +1,22 @@
+.login-container{
+  min-height: 100vh;
+}
+.login-title{
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+form {
+  width: 450px;
+  margin: 0 auto;
+  /* padding: 0 150px; */
+}
+.text-reg{
+  color: blue;
+}
+.text-reg:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.register-link{
+  text-decoration: none;
+}

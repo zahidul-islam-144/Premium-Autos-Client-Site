@@ -1,0 +1,12 @@
+.add-product-container {
+  height: auto;
+  padding: 30px 0px;
+}
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+}
+.add-product-form > input {
+  padding: 5px 10px 5px 30px;
+  margin: 3px 0px;
+}

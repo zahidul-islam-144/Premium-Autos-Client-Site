@@ -1,0 +1,11 @@
+.manage-car-container {
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+.del-edit-btn {
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.icon {
+  color: white;
+}

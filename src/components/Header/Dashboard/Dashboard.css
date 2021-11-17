@@ -1,0 +1,70 @@
+.dashboard-container {
+  height: auto;
+  padding-bottom: 20px;
+}
+.offcanvas-height-width {
+  height: 100%;
+  margin-top: 56px;
+  width: 250px;
+}
+.offcanvas-body {
+  overflow-x: scroll;
+}
+.dash-btn {
+  display: block;
+  margin-top: 68px;
+  margin-left: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* responsive */
+
+/* extra large device */
+/* @media only screen and (min-width: 1199.98px) {
+  .offcanvas-height-width {
+    height: 100%;
+    margin-top: 100px;
+    width: 250px;
+  }
+} */
+/* large device */
+/* @media only screen and (min-width: 991.98px) {
+  .offcanvas-height-width {
+    height: 100%;
+    margin-top: 90px;
+    width: 250px;
+  }
+} */
+/* small device */
+/* @media only screen and (max-width: 767.98px) {
+  .offcanvas-height-width {
+    height: 100%;
+    margin-top: 50px;
+    width: 250px;
+  }
+  .dash-btn {
+    display: block;
+    margin-top: 67px;
+    margin-left: 10px;
+  }
+} */
+/* x small device */
+/* @media only screen and (max-width: 575.98px) {
+  .offcanvas-height-width {
+    height: 100%;
+    margin-top: 50px;
+    width: 250px;
+  }
+  .dash-btn {
+    display: block;
+    margin-top: 67px;
+    margin-left: 10px;
+  }
+} */

@@ -1,0 +1,30 @@
+.rolls-royace-banner-block {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 120px;
+}
+.rolls-royace-img {
+  height: 400px;
+}
+.explore-block {
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.527);
+  border: 1px solid white;
+}
+.explore-btn-link {
+  display: block;
+  text-decoration: none;
+}
+.explore-btn {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.select-now-container {
+  height: auto;
+  margin-bottom: 10px;
+}
+.confirm-form > input {
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 20px;
+}
