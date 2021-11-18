@@ -8,7 +8,7 @@ const Contact = () => {
     <>
       <Container className="bg-light p-4 shadow-lg mb-5">
         <Row>
-          <Col>
+          <Col sm={12} lg={12} md={12} xl={12}>
             <h1 className="text-center mb-4 bg-light">
               Send us your valuable opinion
             </h1>
@@ -28,11 +28,10 @@ const Contact = () => {
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
             </Form>
-          
-              <Button className="d-block ps-5 pe-5 mx-auto mt-3 mb-3">
-                Send
-              </Button>
-            
+
+            <Button className="d-block ps-5 pe-5 mx-auto mt-3 mb-3">
+              Send
+            </Button>
           </Col>
         </Row>
       </Container>
