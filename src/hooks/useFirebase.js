@@ -10,7 +10,7 @@ import {
   signOut,
 } from "firebase/auth";
 import initializeAuthentication from "../firebase/firebase.initialize";
-import axios from "axios";
+
 
 //calling initializaFirebase function to start firebase authentication
 initializeAuthentication();
@@ -103,8 +103,8 @@ const useFirebase = () => {
         const user = result.user;
         saveUser(user.email, user.displayName, "PUT");
         // setUser(user);
-        // const destination = "/home";
-        history.replace('/home');
+        const destination = location?.state?.from || "/home";
+        history.replace(destination);
       })
       .catch((error) => {
         setAuthError(error.message);
@@ -126,10 +126,12 @@ const useFirebase = () => {
 
   // admin tasks
   useEffect(() => {
-    fetch(`https://stormy-atoll-19739.herokuapp.com/premium-autos/users/${user.email}`)
+    fetch(
+      `https://stormy-atoll-19739.herokuapp.com/premium-autos/users/${user.email}`
+    )
       .then((res) => res.json())
       .then((data) => {
-        setAdmin(data.admin)
+        setAdmin(data.admin);
         console.log(data);
       });
   }, [user.email]);

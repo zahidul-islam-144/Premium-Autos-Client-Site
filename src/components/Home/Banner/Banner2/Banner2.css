@@ -21,10 +21,20 @@
   background: rgba(0, 0, 0, 0.527);
   border: 1px solid white;
 }
+.explore-block:hover > h5 {
+  background: rgba(0, 0, 0, 0);
+  transition: all ease-in-out 0.3ms;
+  color: black;
+}
 .explore-btn-link {
   display: block;
   text-decoration: none;
 }
 .explore-btn {
   cursor: pointer;
+  color: white;
+}
+.explore-btn:hover {
+  background: rgba(0, 0, 0, 0.527);
+  border: 1px solid white;
 }

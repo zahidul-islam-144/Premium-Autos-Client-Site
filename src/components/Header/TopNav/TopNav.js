@@ -37,11 +37,11 @@ const TopNav = () => {
                 <li>Explore</li>
               </Link>
 
-              {/* {user.email && ( */}
+              {user.email && (
               <Link to="/dashboard" className="items">
                 <li>Dashboard</li>
               </Link>
-              {/*  )} */}
+               )}
 
               <Nav.Link as={HashLink} to="/home#contact" className="items">
                 <li>Contact</li>

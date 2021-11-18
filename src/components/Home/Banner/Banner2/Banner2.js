@@ -15,7 +15,7 @@ const Banner2 = () => {
 
         <div className="explore-block">
           <Link to="/explore" className="explore-btn-link">
-            <h5 className="text-white fs-1 p-3 border explore-btn">
+            <h5 className="fs-1 p-3 border explore-btn">
               Explroe us
             </h5>
           </Link>
