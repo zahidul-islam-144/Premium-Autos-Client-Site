@@ -6,7 +6,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <Container className="bg-light p-lg-4 p-md-2 p-sm-1 shadow-lg mb-5">
+      <Container className="bg-light p-lg-4 p-md-2 p-sm-0 shadow-lg mb-5">
         <Row>
           <Col sm={12} lg={12} md={12} xl={12}>
             <h1 className="text-center mb-4 bg-light">
@@ -29,7 +29,7 @@ const Contact = () => {
               </Form.Group>
             </Form>
 
-            <Button className="d-block ps-5 ps-1 pe-lg-5 pe-1 mx-auto mt-3 mb-3">
+            <Button className="d-block ps-lg-5 pe-lg-5 ps-sm-1 pe-sm-1 mx-auto mt-3 mb-3">
               Send
             </Button>
           </Col>
